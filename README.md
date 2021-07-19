@@ -17,7 +17,7 @@ crontab -l para visualizar listas de crons
 #o seguinte comando é o responsável pela limpeza
 echo 3 > /proc/sys/vm/drop_caches "
 
-abra o contab com o comando "crontab -e"  e adiciona o tempo : 
-## mm HH DD MM DS tarefa
+## abra o contab com o comando "crontab -e"  e adiciona o tempo : 
+#mm HH DD MM DS tarefa
 30 * * * * local do arquivo .sh (nesse caso eu coloquei para limpar de 30 em 30 minutos independente das horas, dia, mes etc ...)
 
