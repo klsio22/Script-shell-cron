@@ -25,3 +25,8 @@ echo 3 > /proc/sys/vm/drop_caches "
 #mm HH DD MM DS tarefa
 30 * * * * local do arquivo .sh (nesse caso eu coloquei para limpar de 30 em 30 minutos independente das horas, dia, mes etc ...)
 
+links referencia:
+
+https://www.vivaolinux.com.br/dica/Limpando-sua-memoria-cache-de-forma-simples-(parte-2)/
+
+https://www.youtube.com/watch?v=GGTbXq1FUI0
