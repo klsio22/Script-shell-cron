@@ -12,10 +12,10 @@ crontab -l para visualizar listas de crons
 
 ## scripit para criar agendamento: 
 
-## !/bin/bash
+" #!/bin/bash
 #limpando cache
 #o seguinte comando é o responsável pela limpeza
-echo 3 > /proc/sys/vm/drop_caches
+echo 3 > /proc/sys/vm/drop_caches "
 
 abra o contab com o comando "crontab -e"  e adiciona o tempo : 
 ## mm HH DD MM DS tarefa
