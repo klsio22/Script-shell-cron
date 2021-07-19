@@ -8,6 +8,7 @@ sudo sync sudo sysctl vm.drop_caches=3
 watch -n 1 free -m
 
 crontab -e para escolher editor dentro do terminal
+
 crontab -l para visualizar listas de crons
 
 ## scripit para criar agendamento: 
