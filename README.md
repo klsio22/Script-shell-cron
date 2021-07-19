@@ -1,18 +1,18 @@
 # Script-shell-cron
 script cron para agendamento de limpeza de caches de buffer de memoria no linux
 
-##comando para limpeza manual da memoria : 
+## comando para limpeza manual da memoria : 
 sudo sync sudo sysctl vm.drop_caches=3
 
-##para visualiazer consumo da memoria em tempo real:
+## para visualiazer consumo da memoria em tempo real:
 watch -n 1 free -m
 
 crontab -e para escolher editor dentro do terminal
 crontab -l para visualizar listas de crons
 
-##scripit para criar agendamento: 
+## scripit para criar agendamento: 
 
-#!/bin/bash
+## !/bin/bash
 #limpando cache
 #o seguinte comando é o responsável pela limpeza
 echo 3 > /proc/sys/vm/drop_caches
