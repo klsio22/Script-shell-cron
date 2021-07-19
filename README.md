@@ -7,9 +7,12 @@ sudo sync sudo sysctl vm.drop_caches=3
 ## para visualiazer consumo da memoria em tempo real:
 watch -n 1 free -m
 
-crontab -e para escolher editor dentro do terminal
+## Comandos cron:
+" sudo su cat / var/log/syslog | grep " cron para visualizar historico de modificação no cron
 
-crontab -l para visualizar listas de crons
+" crontab -e " para escolher editor dentro do terminal
+
+" crontab -l " para visualizar listas de crons
 
 ## scripit para criar agendamento: 
 
