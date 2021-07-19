@@ -8,7 +8,7 @@ sudo sync sudo sysctl vm.drop_caches=3
 watch -n 1 free -m
 
 ## Comandos cron:
-" sudo su cat /var/log/syslog | grep cron " cron para visualizar historico de modificação no cron
+" sudo su cat /var/log/syslog | grep cron " cron para visualizar historico(logs) no cron
 
 " crontab -e " para escolher editor dentro do terminal
 
